@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
   padding: 0;
   margin: 0;
@@ -13,6 +16,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #img-left-bottom {
@@ -37,4 +43,67 @@ body {
   position: absolute;
   right: 0;
   top: 50px;
+}
+
+.info {
+  width: 100%;
+  max-width: 1117px;
+  background-color: salmon;
+  z-index: 9;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__title {
+  width: 480px;
+}
+
+.info__title h1 {
+  font-family: Lato, sans-serif;
+  width: 380px;
+  font-style: normal;
+  font-weight: bold;
+  font-style: 40px;
+  line-height: 60px;
+  text-transform: capitalize;
+  color:#FFF;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.info__title p {
+  font-family: Open Sans, sans-serif;
+  width: 383px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFF;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.info__submit {
+  width: 100%;
+  position: relative;
+}
+
+.info__submit input {
+  width: 100%;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.info__submit button {
+  width: 120px;
+  height: 60px;
+  background-color: #4F3AA7;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height:16px;
+  color: #FFF;
+  outline: none;
+  border: none;
 }
