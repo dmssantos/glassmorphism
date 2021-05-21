@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #55439E, #952FFF);
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url(./_glass/Group\ 12.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#img-left-bottom {
+  width: 284px;
+  height: 284px;
+  position: absolute;
+  left: 20px;
+  bottom: 65px;
+}
+
+#img-left-top{
+  width: 290.25px;
+  height: 267.16px;
+  position: absolute;
+  top: -100px;
+  left: -30px;
+}
+
+#img-right {
+  width: 550px;
+  height: 610px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
