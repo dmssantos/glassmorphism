@@ -26,7 +26,7 @@ body {
   height: 284px;
   position: absolute;
   left: 20px;
-  bottom: 65px;
+  bottom: 15px;
 }
 
 #img-left-top{
@@ -48,7 +48,6 @@ body {
 .info {
   width: 100%;
   max-width: 1117px;
-  background-color: salmon;
   z-index: 9;
   display: flex;
   justify-content: space-between;
@@ -92,6 +91,20 @@ body {
   width: 100%;
   height: 80px;
   border-radius: 10px;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(45px);
+  padding-left: 30px;
+}
+
+.info__submit input::placeholder {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 16px;
+  color: #CDBFD8;
+
 }
 
 .info__submit button {
@@ -106,4 +119,7 @@ body {
   color: #FFF;
   outline: none;
   border: none;
+  position: absolute;
+  top: 12px;
+  right: -20px;
 }
