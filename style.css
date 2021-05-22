@@ -123,3 +123,49 @@ body {
   top: 12px;
   right: -20px;
 }
+
+.info__card .card {
+  width: 500px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(45px);
+  border-radius: 20px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 40px 50px;
+}
+
+.info__card .card::before {
+  content: "";
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-right: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  box-sizing: border-box;
+  border-radius: 20px 0 0 20px;
+}
+
+.info__card .card::after {
+  content: "";
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-left: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  box-sizing: border-box;
+  border-radius: 0 20px 20px 0;
+}
+
+.card__title h2 {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-style: 20px;
+  line-height: 30px;
+  color: #fff;
+}
