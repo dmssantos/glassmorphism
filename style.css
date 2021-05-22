@@ -168,4 +168,61 @@ body {
   font-style: 20px;
   line-height: 30px;
   color: #fff;
+  margin-top: 0;
+  margin-bottom: 45px;
+}
+
+.card__chip {
+  margin-bottom: 45px;
+}
+
+.card__chip img {
+  width: 60px;
+  height: 43px;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__footer div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.card__footer .card__footer-info p {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+}
+
+.card__footer .card__footer-info p {
+  margin: 0;
+  font-size: 20px;
+  line-height:30px;
+}
+
+.card__footer .card__footer-info p:first-child {
+  margin-bottom: 8px;
+}
+
+.footer-text {
+  font-family: Lato, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer-text--big {
+  letter-spacing: 0.07em;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
 }
