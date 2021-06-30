@@ -13,8 +13,10 @@
 <br>
 
 <p align="center">
-  <img alt="Grassmorphism" src="grass/grassmorphism.png" width="100%">
+  <img alt="Grassmorphism" src="glass/grassmotphism.png" width="100%">
 </p>
+
+
 
 ## ✨ Tecnologias
 
